@@ -1,0 +1,75 @@
+body{
+	margin: 20px;
+}
+.start-window{
+	padding: 10px;
+	border-top: blue solid 4px;
+	background-image: url("images/bg.jpg");
+	background-repeat: repeat-y;
+}
+.get-button{
+	padding: 10px;
+	background-color: blue;
+	border: none;
+	color: #fff;
+	font-weight: bolder;
+}
+.get-button:hover{
+	background-color: #fff;
+	color: blue;
+}
+.code-red{
+	color: darkred;
+}
+.code-dark{	
+	color: #fff;
+}
+.p-dark{
+	padding: 10px;
+	background-color: #000;
+}
+.note-block{
+	margin: 10px;
+	padding: 10px;
+	border-left: 3px solid grey;
+	background-color: lightgray;
+}
+.light-tags{
+	padding: 5px 10px;
+	border: 1px solid grey;
+	border-radius: 50px;
+	background-color: lightgray;
+	display: inline;
+	color: gray;
+}
+.descr-block{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.descr-block img{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin: 0 10px 0 0;
+}
+.link-images{
+	display: flex;
+	flex-direction: row;
+}
+.link-img{
+	height: 28px;
+	width: 31px;
+}
+.link-img-1{
+	background: url(images/icons.jpg) 0 0;
+}
+.link-img-2{
+	background: url(images/icons.jpg) -31px 0;
+}
+.link-img-3{
+	background: url(images/icons.jpg) -62px 0;
+}
+.link-img-4{
+	background: url(images/icons.jpg) -93px 0;
+}
